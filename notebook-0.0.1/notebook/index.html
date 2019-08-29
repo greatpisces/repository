@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>notebook</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menu-title">
+                <h1>NOTEBOOK</h1>
+            </div>
+            <div class="menu-list">
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="note">
+
+            </div>
+            <div class="note-list">
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/template" id="menuTpl">
+        <div class="menu-slice">@title</div>
+    </script>
+
+    <script type="text/template" id="noteListTpl">
+        <div class="note-list-title" data-id="@id">@title</div>
+    </script>
+<!--
+    <script type="text/template" id="exampleTpl">
+        <button class="btn btn-primary example-btn" data-link="@link">@title</button>
+    </script>
+
+    <script type="text/template" id="noteTpl">
+        <div class="note-card" id="note-@id">
+            <div class="note-header">
+                <h2>@title</h2>
+            </div>
+            <div class="note-body">
+                <p>@note</p>
+            </div>
+            <div class="note-footer">
+                @example
+            </div>
+        </div>
+    </script>
+-->
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

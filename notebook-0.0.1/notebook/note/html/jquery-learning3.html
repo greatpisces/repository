@@ -1,0 +1,59 @@
+<div class="note-card" data-title="animation">
+    <div class="note-header">
+        <h2>animation</h2>
+    </div>
+    <div class="note-body">
+        <ol>
+            <li>隐藏 显示</li>
+            <ul>
+                <li>hide(), show(), toggle()</li>
+                <li>$(selector).hide(speed, type, callback);</li>
+                <li>$(selector).show(speed, type, callback);</li>
+                <li>$(selector).toggle(speed, type, callback);</li>
+                <li>speed: slow, fast, 毫秒</li>
+                <li>type: linear, swing</li>
+            </ul>
+
+            <li>淡入 淡出</li>
+            <ul>
+                <li>fadeIn(), fadeOut(), fadeToggle(), fadeTo()</li>
+                <li>$(selector).fadeIn(speed, callback);</li>
+                <li>$(selector).fadeOut(speed, callback);</li>
+                <li>$(selector).fadeToggle(speed, callback);</li>
+                <li>$(selector).fadeTo(speed, opacity, callback);</li>
+                <li>speed: slow, fast, 毫秒</li>
+                <li>opacity: 0 - 1</li>
+            </ul>
+
+            <li>滑动</li>
+            <ul>
+                <li>slideDown(), slideUp(), slideToggle()</li>
+                <li>$(selector).slideDown(speed, callback);</li>
+                <li>$(selector).slideUp(speed, callback);</li>
+                <li>$(selector).slideToggle(speed, callback);</li>
+            </ul>
+
+            <li>动画</li>
+            <ul>
+                <li>animate()</li>
+                <li>$(selector).animate({params},speed,callback);</li>
+                <li>params 参数定义形成动画的 CSS 属性</li>
+                <li>使用驼峰标记法书写属性名</li>
+                <li>如需对位置进行操作，首先把元素的 CSS position 属性设置为 relative、fixed 或 absolute</li>
+                <li>相对值+=, -=</li>
+                <li>预定义值show, hide, toggle</li>
+                <li>队列功能</li>
+            </ul>
+
+            <li>停止动画</li>
+            <ul>
+                <li>stop()</li>
+                <li>$(selector).stop(stopAll,goToEnd);</li>
+                <li>stopAll: 是否清除动画队列，默认false</li>
+                <li>goToEnd: 是否立即完成当前动画，默认false</li>
+            </ul>
+        </ol>
+    </div>
+    <div class="note-footer">
+    </div>
+</div>
